@@ -1,4 +1,4 @@
-var socket = io.connect('http://localhost:4000', () => alert('connect'));
+var socket = io.connect('https://60e0-197-211-59-7.ngrok-free.app', () => alert('connect'));
 
 var UserVideo = document.querySelector('#localVideo')
 
